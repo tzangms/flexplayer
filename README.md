@@ -7,3 +7,6 @@ MEMO
 * Compile and Debug with this command (Open Vizzy to see the trace message)
 
     $ mxmlc app.mxml -debug; open app.swf
+
+
+This project is still in progress. I don't familiar with Flex at all.
