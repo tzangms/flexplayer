@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx" width="640" height="480"
+               creationComplete="init()">
+
+    <fx:Script source="app.as" />
+
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+
+    <mx:ProgressBar id="bar" minimum="0" visible="true" maximum="100" label="CurrentProgress 0%"   
+                                direction="right" mode="manual" width="100%" /> 
+    <s:Button id="playButton" icon="@Embed(source='images/play.png')" label="Play" click="play()" />
+
+</s:Application>
