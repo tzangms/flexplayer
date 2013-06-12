@@ -8,5 +8,14 @@ MEMO
 
     $ mxmlc app.mxml -debug; open app.swf
 
+TODO
+=====
+
+* Layout
+* Class
+* ImageButton
+
+WARNING
+========
 
 This project is still in progress. I don't familiar with Flex at all.
